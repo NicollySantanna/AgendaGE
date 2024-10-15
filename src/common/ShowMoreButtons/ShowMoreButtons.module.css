@@ -1,0 +1,17 @@
+.showMoreButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+
+    background-color: transparent;
+    border: none;
+    color: var(--primary-color);
+    font-size: 16px;
+
+    cursor: pointer;
+}
+
+.showMoreButtons svg{
+    margin-left: 1rem;
+}

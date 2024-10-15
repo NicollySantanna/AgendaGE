@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+   height: 100%;
+}
+
+.container ul{
+    display: flex;
+    align-items: center;
+    margin: 2rem 2rem;
+    list-style: none;
+
+    border-bottom: 1px solid rgba(226, 226, 226, 0.5);
+}
+
+.container li{
+    margin: 1rem 1rem;
+}
+
+ul li[dataActiveTab='true']{
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.container ul li button{
+    background-color: transparent;
+    border: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--primary-color);
+    cursor: pointer;
+}
+
+.active{
+    color: var(--primary-color);
+    border-bottom: 2px solid var(--primary-color);
+}
+
+.tabButton:not(.active){
+    color: rgba(226, 226, 226, 0.5);
+}

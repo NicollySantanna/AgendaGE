@@ -1,0 +1,34 @@
+.container{
+    max-width: 1224px;
+    margin: 0 auto;
+}
+
+.header{
+    padding: 2rem 1rem 1rem ;
+}
+
+.header h1{
+    font-size: 18px;
+    line-height: 25px;
+}
+
+.header p{
+ font-size: 14px;
+ line-height: 19px;
+}
+
+.gameTrack{
+    display: flex;
+    flex-wrap: wrap;
+    padding-left: 1px;
+    padding-top: 1px;
+    gap: 12px;
+    background: rgb(255, 255, 255);
+    margin: 1rem auto;
+}
+.showMoreContainer{
+    margin-top: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

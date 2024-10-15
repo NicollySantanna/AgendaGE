@@ -1,0 +1,63 @@
+.card {
+  width: 336px;
+  height: 120px;
+  border: 0.5px solid rgb(242, 242, 242);
+  border-radius: 5px 5px 0 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0.5rem;
+  position: relative;
+}
+
+.infos span {
+  margin-left: 0.5rem;
+  font-size: 12px;
+}
+
+.fiquePorDentro {
+  border: 0.5px solid var(--primary-color);
+  padding: 0.2rem;
+  border-radius: 0.4rem;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+
+.matches {
+  margin-top: 0.8rem;
+}
+
+.matches span {
+  margin-left: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.matches img {
+  width: 24px;
+}
+
+.ondeAssistir {
+  background-color: #ffffff;
+  border: 0.5px solid rgb(242, 242, 242);
+  border-top: none;
+  width: 336px;
+  height: 50px;
+  text-align: center;
+  color: rgb(6, 170, 72);
+  font-weight: 700;
+  border-radius: 0 0 5px 5px;
+
+  box-shadow: 0px 8px 4px -6px rgba(0, 0, 0, 0.54);
+  -webkit-box-shadow: 0px 8px 4px -6px rgba(0, 0, 0, 0.54);
+  -moz-box-shadow: 0px 8px 4px -6px rgba(0, 0, 0, 0.54);
+}
+.ondeAssistir span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.ondeAssistir svg {
+  margin-right: 0.4rem;
+}
