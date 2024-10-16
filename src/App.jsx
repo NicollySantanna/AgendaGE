@@ -4,6 +4,7 @@ import ChampionshipName from "./components/ChampionshipName/ChampionshipName";
 import EventGroup from "./components/EventGroup/EventGroup";
 import ShowMoreButtons from "./common/ShowMoreButtons/ShowMoreButtons";
 import TabNavigation from "./components/TabNavigation/TabNavigation";
+import DateNav from "./components/DataNav/DateNav";
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
         </p>
       </header>
 
+      <DateNav/>
+      
       <TabNavigation />
 
       <ChampionshipName />

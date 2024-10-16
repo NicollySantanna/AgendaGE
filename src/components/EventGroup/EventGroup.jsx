@@ -14,6 +14,13 @@ const EventGroup = () => {
     }, 1000); 
   }, []);
 
+  function abreviarTexto(texto, limite) {
+    if(texto.length > limite) {
+      return texto.slice(0, limite) + "..."
+    }
+    return texto
+  }
+
   return (
     <>
       {events.length > 0 ? (
@@ -21,10 +28,10 @@ const EventGroup = () => {
           <article key={event.id} className={styles.cardContainer}>
             <div className={styles.card}>
               <div className={styles.infos}>
-                <span>{event.rodada}</span>
-                <span>{event.fase}</span>
-                <span>{event.data}</span>
-                <span>{event.horario}</span>
+                <span className={styles.rodada}>{event.rodada}•</span>
+                <span className={styles.fase}> {abreviarTexto(event.fase, 4)}</span>
+                <span className={styles.data}>{event.data} •</span>
+                <span className={styles.horario}>{event.horario} </span>
                 <span className={styles.fiquePorDentro}>Fique por dentro</span>
               </div>
               <div className={styles.matches}>

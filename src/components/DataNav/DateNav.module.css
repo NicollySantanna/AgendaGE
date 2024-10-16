@@ -1,0 +1,30 @@
+.dateNavBar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.date{
+    background-color: #eee;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: 1rem 1rem;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.weekday{
+    margin-top: 2rem;
+}
+
+.selected{
+    background-color: var(--primary-color);
+}
