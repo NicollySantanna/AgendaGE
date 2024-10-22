@@ -1,8 +1,6 @@
 import styles from "./App.module.css";
 
-import ChampionshipName from "./components/ChampionshipName/ChampionshipName";
 import EventGroup from "./components/EventGroup/EventGroup";
-import ShowMoreButtons from "./common/ShowMoreButtons/ShowMoreButtons";
 import TabNavigation from "./components/TabNavigation/TabNavigation";
 import DateNav from "./components/DataNav/DateNav";
 
@@ -22,15 +20,13 @@ function App() {
       
       <TabNavigation />
 
-      <ChampionshipName />
-
       <section className={styles.gameTrack}>
         <EventGroup />
       </section>
 
-      <aside className={styles.showMoreContainer}>
+      {/* <aside className={styles.showMoreContainer}>
         <ShowMoreButtons />
-      </aside>
+      </aside> */}
 
     </main>
   );

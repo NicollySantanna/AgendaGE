@@ -16,10 +16,6 @@
     margin: 1rem 1rem;
 }
 
-ul li[dataActiveTab='true']{
-    border-bottom: 2px solid var(--primary-color);
-}
-
 .container ul li button{
     background-color: transparent;
     border: none;

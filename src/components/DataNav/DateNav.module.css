@@ -6,8 +6,16 @@
     height: 100%;
 }
 
+.dateNavBarWrapper{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
 .date{
-    background-color: #eee;
+    background-color: #eeeeee80;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -21,10 +29,38 @@
     cursor: pointer;
 }
 
+.number{
+    margin-top: .7rem;
+}
+
+
 .weekday{
     margin-top: 2rem;
+    color: #ccc;
+    font-weight: 100;
 }
 
 .selected{
+    width: 48px;
+    height: 48px;
+    font-size: 18px;
     background-color: var(--primary-color);
+    color: #ffffff;
+}
+
+.currentDay{
+    color: #333333;
+    font-weight: 500;
+}
+
+.arrows{
+    background-color: transparent;
+    border: none;
+    color: var(--primary-color);
+   
+}
+
+.arrows svg{
+    font-size: 18px;
+    cursor: pointer;
 }
